@@ -1,4 +1,4 @@
-import { App, Plugin, PluginSettingTab, Setting } from "obsidian";
+import { App, Plugin, PluginSettingTab, Setting } from 'obsidian';
 import {
 	DEFAULT_COLLECTION_COUNT_COLUMN,
 	DEFAULT_COLLECTION_FILE_EXTENSION,
@@ -84,7 +84,7 @@ export default class ObsidianPluginMtg extends Plugin {
 		);
 	}
 
-	onunload() {}
+	onunload() { }
 
 	async loadSettings() {
 		this.settings = Object.assign(
